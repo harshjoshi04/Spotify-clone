@@ -8,7 +8,7 @@ import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai";
 import { HiSpeakerWave, HiSpeakerXMark } from "react-icons/hi2";
 import Slider from "./Slider";
 import usePlayer from "@/actions/usePlayer";
-import useSound from "use-sound" as any;
+import useSound from "use-sound";
 interface PlayerContentProps {
   songs: Song;
   songUrl: string;
