@@ -1,4 +1,6 @@
 "use client";
+// @ts-ignore
+import useSound from "use-sound";
 import React, { useEffect, useState } from "react";
 import { Song } from "../../type";
 import MediaItem from "./MediaItem";
@@ -8,7 +10,7 @@ import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai";
 import { HiSpeakerWave, HiSpeakerXMark } from "react-icons/hi2";
 import Slider from "./Slider";
 import usePlayer from "@/actions/usePlayer";
-import useSound from "use-sound";
+
 interface PlayerContentProps {
   songs: Song;
   songUrl: string;
